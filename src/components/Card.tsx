@@ -19,14 +19,9 @@ const Card = (props: CardProps) => {
     return <div>Not found</div>;
   }
 
-  console.log(data.sprites.other["official-artwork"].front_default);
-
   return (
     <div className="card">
-      <img
-        src={data.sprites.other["official-artwork"].front_default}
-        alt={props.name}
-      />
+      <img src={data.sprites.front_default} alt={props.name} />
       <h3>{props.name}</h3>
       <p>{props.url}</p>
       <div
