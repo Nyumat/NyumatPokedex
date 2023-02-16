@@ -54,7 +54,6 @@
 }
 
 .card {
-  scale: 0.8;
   margin: 1rem;
   flex: 1 1 300px;
   padding: 2rem;
@@ -85,17 +84,23 @@
 }
 
 .card img {
-  width: 100%;
-  height: 50%;
-  display: block;
+  margin: 0 auto;
   border-radius: 10px;
 }
 
 .grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+input {
+  display: inline-block;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
 }
