@@ -2,6 +2,8 @@
 
 A client-side application for searching and viewing data from the [PokeAPI](https://pokeapi.co/). Users can query/view many and specific pokemon.
 
+![Demo](demo.png)
+
 ## Tech Specs
 
 - [React](https://beta.reactjs.org/)
