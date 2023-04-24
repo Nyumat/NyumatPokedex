@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(6, 11, 40, 0.7);
+  background: rgba(2, 1, 10, 0.7);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -49,11 +49,11 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: inherit;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 4px auto inherit;
 }
 
 @media (prefers-color-scheme: light) {
